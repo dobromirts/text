@@ -9,6 +9,12 @@
   height: max-content;
   min-width: min-content;
 }
+.calendar {
+  width: max-content;
+  height: max-content;
+  flex-grow: 1;
+  flex-basis: 0;
+}
 .body-content {
   min-width: 50px;
   min-height: 50px;
