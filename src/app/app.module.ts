@@ -4,6 +4,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { MasterViewComponent } from './master-view/master-view.component';
+import { IgxCardModule, IgxButtonModule, IgxRippleModule, IgxIconModule } from '@infragistics/igniteui-angular';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -14,7 +16,12 @@ import { MasterViewComponent } from './master-view/master-view.component';
     BrowserModule,
     HammerModule,
     AppRoutingModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    IgxCardModule,
+    IgxButtonModule,
+    IgxRippleModule,
+    IgxIconModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
